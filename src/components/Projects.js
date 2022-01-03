@@ -39,13 +39,12 @@ export default function Projects() {
                         <div className='proj-details'>
                             <h2>I. MovieFlix</h2>
                             <p>
-                                Interactive website build with
-                                <span> React js</span>, that is uses an external API to
-                                retrieve information on the latest movies. It has a wide
-                                range of movie genres to explore. Users can discover movie
-                                ratings, release dates, descriptions and many more
-                                details. Furthermore, users can search keywords to find
-                                relevant movies.
+                                MovieFlix is an interactive website built with
+                                <span>React js</span>. It uses an external API to present
+                                information on the latest movies. It has a wide range of
+                                movie genres to explore. Users can search for any keywords
+                                to explore movie ratings, release dates, descriptions and
+                                many more details on any movie.
                             </p>
                             <div className='stack-links'>
                                 <div className='proj-stacks'>
@@ -104,10 +103,10 @@ export default function Projects() {
                         <div className='proj-details'>
                             <h2>II. 1London Real Estate</h2>
                             <p>
-                                A real state business website, with a responsive design
-                                that is both simplistic and functional. Despite the static
-                                nature of the site, it shows an eye for detail, design and
-                                a user friendly format.
+                                1London real estate is a business website. The design is
+                                both simplistic and functional. Despite the static nature
+                                of the site, it is fully responsive and demonstrates an
+                                eye for detail.
                             </p>
                             <div className='stack-links'>
                                 <div className='proj-stacks'>
@@ -168,8 +167,8 @@ export default function Projects() {
                         <div className='proj-details'>
                             <h2>III. The News Cast</h2>
                             <p>
-                                A fully responsive static news website that also uses a
-                                weather API. The design was inspired by "The New York
+                                A fully responsive news website that also uses an API for
+                                weather data. The design was inspired by "The New York
                                 Times", with key features such as breaking news, blogs and
                                 opinion pieces.
                             </p>
@@ -230,9 +229,10 @@ export default function Projects() {
                         <div className='proj-details'>
                             <h2>IV. GYMNation</h2>
                             <p>
-                                Fully responsive website for a makeshift gym. Including
-                                features and sections such as advertising membership
-                                plans, workout classNamees and taster sessions.
+                                Fully responsive website for a thriving city gym. This
+                                website is interactive and presents sports-focused
+                                memberships. It present's features and sections such as
+                                workout classes, rock climbing and taster sessions.
                             </p>
                             <div className='stack-links'>
                                 <div className='proj-stacks'>
@@ -253,11 +253,11 @@ export default function Projects() {
                                     </button>
                                 </div>
                                 <div className='proj-link-items'>
-                                    <a href='https://ashrafw.github.io/MovieFlix/'>
+                                    <a href='https://ashrafw.github.io/GYMNation/'>
                                         Visit site
                                     </a>
 
-                                    <a href='https://github.com/Ashrafw/MovieFlix'>
+                                    <a href='https://github.com/Ashrafw/GYMNation'>
                                         Github <i className='fab fa-github'></i>
                                     </a>
                                 </div>
@@ -293,9 +293,9 @@ export default function Projects() {
                         <div className='proj-details'>
                             <h2>V. The Umbrella Restaurant</h2>
                             <p>
-                                A Fully responsive website for a high-end luxury
-                                restaurant. Including key features highlighting meals,
-                                reservations and social media links.
+                                The Umbrella Restaurant is a fully responsive website for
+                                a high-end luxury restaurant. The website has key features
+                                highlighting menus, reservations and social media links.
                             </p>
                             <div className='stack-links'>
                                 <div className='proj-stacks'>
@@ -359,8 +359,8 @@ export default function Projects() {
                             <p>
                                 A web application developed for users to generate a
                                 shopping list and check off during purchases. This web app
-                                is inspired by the general to-do list projects that are
-                                taught to junior developers.
+                                is a refinement and improvement to the popular and general
+                                to-do list projects taught to junior developers.
                             </p>
                             <div className='stack-links'>
                                 <div className='proj-stacks'>
