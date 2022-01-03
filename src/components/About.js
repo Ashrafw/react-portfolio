@@ -10,14 +10,16 @@ export default function About() {
                     <p>
                         In my web development journey, I focus on the users by developing
                         well-designed interfaces that are both advanced and simple to
-                        navigate.
+                        navigate. Front-end web development is a true passion of mine. I
+                        truly enjoy the ever-changing landscape that requires constant
+                        learning and application.
                     </p>
                     <p className='info-p'>
-                        I’ve graduated with a Masters in Mechanical Engineering from
-                        King’s College London. I’ve always been fascinated with computer
-                        programming and design, and I’m a bit of a math nerd. I’ve taught
-                        over 80 students GCSE and A-level Maths privately in the past few
-                        years.
+                        I have graduated with a Masters in Mechanical Engineering from
+                        King’s College London. I have a deep passion for computer
+                        programming and design. I'm a bit of a math nerd and successfully
+                        taught GCSE and A-level Maths to over 80 students privately in the
+                        past few years.
                     </p>
 
                     <div className='links'>
