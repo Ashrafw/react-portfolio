@@ -1,0 +1,115 @@
+.navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.navbar .container .nav-links {
+    display: flex;
+    align-items: end;
+
+    justify-content: space-between;
+}
+
+.navbar .nav-logo h1 {
+    margin-bottom: 0;
+}
+.navbar .nav-logo h1 {
+    font-size: 1.8rem;
+}
+
+.navbar .nav-link {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-left: 40px;
+}
+
+.navbar .container .nav-links .checkbox {
+    opacity: 0;
+    position: absolute;
+}
+.navbar .container .nav-links .label {
+    background-color: rgba(134, 134, 134, 0.5);
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 5px;
+    position: relative;
+    height: 18px;
+    width: 40px;
+    font-size: 0.7rem;
+    transform: scale(1.5);
+}
+
+.navbar .container .nav-links .label .ball {
+    background-color: #000;
+    border-radius: 10px;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    height: 13px;
+    width: 17px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.navbar .container .nav-links .checkbox:checked + .label .ball {
+    transform: translateX(16px);
+}
+
+.navbar .container .nav-links .fa-moon {
+    color: var(--color-sec-w);
+    color: var(--color-main-text);
+    color: var(--color-prim1-text);
+}
+
+.navbar .container .nav-links .fa-sun {
+    color: var(--color-sec-w);
+    color: var(--color-main-text);
+    color: var(--color-prim1-text);
+}
+
+/* ===================== */
+
+@media (max-width: 900px) {
+    .navbar .nav-logo h1 {
+        font-size: 1.8rem;
+    }
+
+    .navbar .nav-link {
+        font-size: 1.1rem;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar .nav-logo h1 {
+        font-size: 1.6rem;
+    }
+
+    .navbar .nav-link {
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar .nav-logo h1 {
+        font-size: 1.35rem;
+    }
+
+    .navbar .nav-link {
+        font-size: 0.9rem;
+        margin-left: 12px;
+    }
+}
