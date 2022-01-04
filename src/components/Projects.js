@@ -40,7 +40,7 @@ export default function Projects() {
                             <h2>I. MovieFlix</h2>
                             <p>
                                 MovieFlix is an interactive website built with
-                                <span>React js</span>. It uses an external API to present
+                                <span> React js</span>. It uses an external API to present
                                 information on the latest movies. It has a wide range of
                                 movie genres to explore. Users can search for any keywords
                                 to explore movie ratings, release dates, descriptions and

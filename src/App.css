@@ -51,3 +51,6 @@ p {
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
 }
+.info-p {
+    margin-top: 10px;
+}
