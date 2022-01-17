@@ -7,14 +7,15 @@ import About from './components/About';
 import Projects from './components/Projects';
 import MainLanding from './components/MainLanding';
 import EndFooter from './components/EndFooter';
-
+import { useTheme } from './hooks/useTheme';
 function App() {
+    const { mode } = useTheme();
     return (
-        <div className='App'>
+        <div className={`App ${mode}`}>
             <NavBar />
             <MainLanding />
-            <About />
             <Projects />
+            <About />
             <EndFooter />
         </div>
     );

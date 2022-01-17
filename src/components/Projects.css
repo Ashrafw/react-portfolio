@@ -1,15 +1,20 @@
 .projects {
-    padding: 40px 20px;
+    padding: 40px 5px;
     transition: all 0.6s ease;
     margin-bottom: 0px;
+    transition: 0.5s all ease-in-out;
+}
+.App.dark .projects {
+    color: rgb(220, 220, 220);
+    color: rgb(108, 94, 207);
 }
 
 .proj-items-all {
     margin: 30px 0 0;
     display: grid;
     width: 100%;
-    grid-gap: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
 }
 .proj-details p span {
     font-weight: 700;
@@ -32,33 +37,50 @@
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    box-shadow: 0 10px 20px rgba(86, 19, 128, 0.63), 0 6px 6px rgba(4, 40, 106, 0.53);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3), 0 10px 12px rgba(0, 0, 0, 0.22);
 }
 .proj-image .ipad {
     position: absolute;
     border: 4px rgb(20, 20, 20) solid;
     border-radius: 20px;
     bottom: -4px;
-    right: -15px;
+    right: -8px;
     width: 40%;
     box-shadow: 0 10px 20px rgba(2, 34, 114, 0.53), 0 6px 6px rgba(4, 40, 106, 0.53);
-    box-shadow: 0 3px 6px rgba(90, 18, 126, 0.16), 0 3px 6px rgba(97, 23, 121, 0.23);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3), 0 10px 12px rgba(0, 0, 0, 0.22);
 }
 .proj-image .mobile {
     position: absolute;
     border: 4px rgb(0, 0, 0) solid;
     border-radius: 10px;
     bottom: -6px;
-    right: -25px;
+    right: -12px;
     width: 20%;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    box-shadow: 0 10px 20px rgba(2, 34, 114, 0.53), 0 6px 6px rgba(4, 40, 106, 0.53);
-    box-shadow: 2px 10px 10px rgba(84, 9, 116, 0.53);
-    box-shadow: 0 3px 6px rgba(90, 18, 126, 0.06), 0 3px 6px rgba(97, 23, 121, 0.13);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3), 0 10px 12px rgba(0, 0, 0, 0.22);
 }
-
+.App.dark .proj-image .web {
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.99), 0 0 5px rgba(255, 255, 255, 1),
+        0 0 5px rgb(108, 94, 207), 0 0 5px rgb(108, 94, 207), 0 0 10px rgb(108, 94, 207),
+        0 0 20px rgb(108, 94, 207);
+}
+.App.dark .proj-image .ipad {
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.99), 0 0 5px rgba(255, 255, 255, 1),
+        0 0 5px rgb(108, 94, 207), 0 0 5px rgb(108, 94, 207), 0 0 10px rgb(108, 94, 207),
+        0 0 20px rgb(108, 94, 207);
+}
+.App.dark .proj-image .mobile {
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.99), 0 0 5px rgba(255, 255, 255, 1),
+        0 0 5px rgb(108, 94, 207), 0 0 5px rgb(108, 94, 207), 0 0 10px rgb(108, 94, 207),
+        0 0 20px rgb(108, 94, 207);
+}
 /* ============================ */
-
+.App.dark .proj-details {
+    color: white;
+}
+.App.dark .proj-details p {
+    color: rgb(215, 215, 215);
+    font-weight: 400;
+}
 .proj-item .proj-details {
     padding: 2em 0px;
     display: flex;
@@ -80,7 +102,7 @@
     font-weight: 300;
     line-height: 1.4;
     width: 100%;
-    text-align: justify;
+    /* text-align: justify; */
     /* padding: 0; */
     margin-left: 2px;
     margin-right: 2px;
@@ -93,8 +115,14 @@
     text-align: center;
     margin: 0.8rem 0;
     border-radius: 16px;
+    transition: 0.5s all ease-in-out;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3), 0 10px 12px rgba(0, 0, 0, 0.22);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3), 0 10px 12px rgba(0, 0, 0, 0.22);
+}
+
+.App.dark .proj-stacks button {
+    opacity: 1;
+    background-color: #6b5ecf74;
+    color: rgb(255, 255, 255);
 }
 
 .proj-stacks button {
@@ -103,7 +131,6 @@
     border: none;
     padding: 7px 20px;
     color: #444;
-
     margin: 0px 0;
 }
 
@@ -169,6 +196,7 @@
     right: 0;
     border-radius: 10px;
     display: flex;
+    transition: 0.5s all ease-in-out;
     align-items: center;
 }
 .stack-links .proj-link-items a {
@@ -187,6 +215,7 @@
     border: none;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     color: rgb(0, 0, 0);
+    transition: all 0.2s ease-in-out;
 }
 .stack-links .proj-link-items a i {
     margin-left: 3px;
@@ -198,7 +227,7 @@
     /* border-right: solid 2px #888; */
     border-radius: 15px;
 
-    margin-right: 10px;
+    margin-right: 18px;
 }
 .stack-links .proj-link-items a:last-child {
     border-top-right-radius: 20px;
@@ -212,16 +241,25 @@
     background-color: rgb(9, 50, 82);
     color: white;
 }
+.App.dark .stack-links .proj-link-items a:hover {
+    border: 2px solid #6b5ecf74;
+    background-color: #50479a;
+    color: white;
+}
 .stack-links .proj-link-items a:active {
     transform: scale(0.95);
 }
-.stack-links .proj-link-items:hover {
+/* .stack-links .proj-link-items:hover {
     background-color: rgb(255, 255, 255);
-}
+} */
 
 @media (max-width: 1200px) {
     .projects {
         padding: 20px 10px;
+    }
+    .projects h2 {
+        font-size: 2.2rem;
+        margin-bottom: 0;
     }
     .proj-details h2 {
         font-size: 1.3rem;
